@@ -1,7 +1,7 @@
 # animation-trick1
-![Image](https://github.com/user-attachments/assets/55200eb0-2fbe-48aa-bdc9-f61a4bdf328d)
+![Image](https://github.com/user-attachments/assets/9ee99506-fbcc-44c2-a961-e348c3b70df4)
 
-- [🔗 Demo Project](https://hoseinmohammadi-dev.github.io/avada-plumber/)
+- [🔗 Demo Project](https://hoseinmohammadi-dev.github.io/animation-trick1/)
 
 - Developed by **Hosein Mohammadi** ⚡️
 
