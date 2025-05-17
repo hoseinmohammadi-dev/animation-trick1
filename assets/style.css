@@ -1,0 +1,58 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+body {
+    background-color: #070331;
+}
+
+@font-face {
+    font-family: "Guaton";
+    src: url(font/Guton-Black.ttf);
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    p {
+        color: rgba(255, 255, 255, 0.307);
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        display: inline-block;
+        border: 6px double rgba(255, 255, 255, 0.432);
+        border-width: 6px 0;
+        padding: 40px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-shadow: 0 0 90px rgba(222, 222, 222, 0.481);
+
+        >span {
+            font: 1000 60px "Guaton";
+            display: block;
+            margin-block: 20px;
+
+            background: url(img/Untitled-1.png);
+            background-clip: text;
+
+            animation: bgcimage 80s linear infinite;
+            -webkit-text-fill-color: transparent;
+        }
+
+    }
+}
+
+@keyframes bgcimage {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 0;
+    }
+}
